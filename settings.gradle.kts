@@ -19,7 +19,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Netbird"
+rootProject.name = "Onenet"
 include(":app")
 include(":gomobile")
 include(":tool")

@@ -8,19 +8,19 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFF</color>
 
-    <color name="nb_bg">#181A1D</color>
-    <color name="nb_bg_peers">#181A1D</color>
-    <color name="nb_bg_home">#1c1e21</color>
-    <color name="nb_bg_mask">#181A1D</color>
-    <color name="nb_gray_light">#32363D</color>
-    <color name="nb_gray_dark">#1C1E21</color>
-    <color name="nb_gray_bg">#1C1E21</color>
-    <color name="nb_gray_separator">#32363D</color>
-    <color name="nb_gray_border">#545961</color>
-    <color name="nb_orange">#F68330</color>
-    <color name="nb_txt">#FEFEFE</color>
-    <color name="nb_txt_light">#7E858F</color>
-    <color name="nb_button_inactive">#545961</color>
+    <color name="onet_bg">#181A1D</color>
+    <color name="onet_bg_peers">#181A1D</color>
+    <color name="onet_bg_home">#1c1e21</color>
+    <color name="onet_bg_mask">#181A1D</color>
+    <color name="onet_gray_light">#32363D</color>
+    <color name="onet_gray_dark">#1C1E21</color>
+    <color name="onet_gray_bg">#1C1E21</color>
+    <color name="onet_gray_separator">#32363D</color>
+    <color name="onet_gray_border">#545961</color>
+    <color name="onet_orange">#F68330</color>
+    <color name="onet_txt">#FEFEFE</color>
+    <color name="onet_txt_light">#7E858F</color>
+    <color name="onet_button_inactive">#545961</color>
 
     <color name="thumb_on_color">#F58431</color>
     <color name="thumb_off_color">#545961</color>

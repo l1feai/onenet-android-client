@@ -8,19 +8,19 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="nb_bg">#F2F2F2</color>
-    <color name="nb_bg_peers">#F5F5F5</color>
-    <color name="nb_bg_home">#DEDEDE</color>
-    <color name="nb_bg_mask">#F2F2F2</color>
-    <color name="nb_gray_light">#F5F5F5</color>
-    <color name="nb_gray_dark">#4E4E4E</color>
-    <color name="nb_gray_bg">#eeeeee</color>
-    <color name="nb_gray_separator">#dadada</color>
-    <color name="nb_gray_border">#ececec</color>
-    <color name="nb_orange">#F58431</color>
-    <color name="nb_txt">#454545</color>
-    <color name="nb_txt_light">#7c7c7c</color>
-    <color name="nb_button_inactive">#4E4E4E</color>
+    <color name="onet_bg">#F2F2F2</color>
+    <color name="onet_bg_peers">#F5F5F5</color>
+    <color name="onet_bg_home">#DEDEDE</color>
+    <color name="onet_bg_mask">#F2F2F2</color>
+    <color name="onet_gray_light">#F5F5F5</color>
+    <color name="onet_gray_dark">#4E4E4E</color>
+    <color name="onet_gray_bg">#eeeeee</color>
+    <color name="onet_gray_separator">#dadada</color>
+    <color name="onet_gray_border">#ececec</color>
+    <color name="onet_orange">#F58431</color>
+    <color name="onet_txt">#454545</color>
+    <color name="onet_txt_light">#7c7c7c</color>
+    <color name="onet_button_inactive">#4E4E4E</color>
 
     <color name="thumb_on_color">#F58431</color>
     <color name="thumb_off_color">#FFFFFF</color>

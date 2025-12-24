@@ -5,7 +5,7 @@
     android:id="@+id/home_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/nb_bg_home"
+    android:background="@color/onet_bg_home"
     android:descendantFocusability="afterDescendants"
     android:focusable="false"
     android:focusableInTouchMode="false"
@@ -27,7 +27,7 @@
         android:id="@+id/mask_background"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/nb_bg_mask"
+        android:background="@color/onet_bg_mask"
         android:focusable="false"
         android:focusableInTouchMode="false"
         app:layout_constraintTop_toTopOf="@id/spacer"
@@ -67,7 +67,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <com.airbnb.lottie.LottieAnimationView
+        <com.airbonet.lottie.LottieAnimationView
             android:id="@+id/btn_connect"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -94,7 +94,7 @@
             android:focusableInTouchMode="false"
             android:text="@string/main_status_disconnected"
             android:textAlignment="center"
-            android:textColor="@color/nb_txt_light"
+            android:textColor="@color/onet_txt_light"
             android:textSize="22sp"
             app:layout_constraintTop_toBottomOf="@id/btn_connect"
             app:layout_constraintStart_toStartOf="parent"
@@ -106,7 +106,7 @@
         android:id="@+id/white_background"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="@color/nb_bg_mask"
+        android:background="@color/onet_bg_mask"
         android:focusable="false"
         android:focusableInTouchMode="false"
         app:layout_constraintTop_toBottomOf="@id/bg_mask_container"
@@ -122,12 +122,12 @@
         android:focusable="false"
         android:focusableInTouchMode="false"
         android:textAlignment="center"
-        android:textColor="@color/nb_txt_light"
+        android:textColor="@color/onet_txt_light"
         android:textSize="16sp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:text="budafoki.netbird.cloud" />
+        tools:text="budafoki.l1fe.network" />
 
     <TextView
         android:id="@+id/text_network_address"
@@ -137,7 +137,7 @@
         android:focusable="false"
         android:focusableInTouchMode="false"
         android:textAlignment="center"
-        android:textColor="@color/nb_txt_light"
+        android:textColor="@color/onet_txt_light"
         android:textSize="16sp"
         tools:text="100.127.123.95/16"
         app:layout_constraintTop_toBottomOf="@id/text_hostname"
@@ -185,7 +185,7 @@
                 android:focusableInTouchMode="false"
                 android:padding="16dp"
                 android:textAlignment="center"
-                android:textColor="@color/nb_txt_light"
+                android:textColor="@color/onet_txt_light"
                 android:textSize="16sp"
                 tools:text="0 of 0 Peers connected" />
         </LinearLayout>

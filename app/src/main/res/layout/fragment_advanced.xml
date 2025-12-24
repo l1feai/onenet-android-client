@@ -29,7 +29,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/advanced_details"
-        android:textColor="@color/nb_txt_light"
+        android:textColor="@color/onet_txt_light"
         app:layout_constraintTop_toBottomOf="@id/title_pre_shared_key"
         app:layout_constraintStart_toStartOf="parent"
         android:textSize="15sp"
@@ -45,8 +45,8 @@
         android:inputType="textUri"
         android:background="@drawable/edit_text_white"
         android:padding="16dp"
-	android:textColor="@color/nb_txt"
-        android:textColorHint="@color/nb_txt_light"
+	android:textColor="@color/onet_txt"
+        android:textColorHint="@color/onet_txt_light"
         android:focusable="true"
         android:focusableInTouchMode="true"
         app:layout_constraintTop_toBottomOf="@id/text_server_label"
@@ -100,7 +100,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/advanced_tracelog"
-            android:textColor="@color/nb_txt_light"
+            android:textColor="@color/onet_txt_light"
             android:textSize="15sp"
             />
 
@@ -156,7 +156,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/advanced_rosenpass"
-            android:textColor="@color/nb_txt_light"
+            android:textColor="@color/onet_txt_light"
             android:textSize="15sp"
             />
 
@@ -187,7 +187,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/advanced_rosenpass_permissive"
-            android:textColor="@color/nb_txt_light"
+            android:textColor="@color/onet_txt_light"
             android:textSize="15sp"
             />
 
@@ -244,7 +244,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/advanced_allow_ssh"
-                android:textColor="@color/nb_txt_light" />
+                android:textColor="@color/onet_txt_light" />
 
             <com.google.android.material.switchmaterial.SwitchMaterial
                 android:id="@+id/switch_allow_ssh"
@@ -259,7 +259,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/advanced_allow_ssh_desc"
-            android:textColor="@color/nb_txt_light"
+            android:textColor="@color/onet_txt_light"
             android:textSize="12sp"
             android:layout_marginTop="2dp"
             android:layout_marginStart="0dp"
@@ -268,7 +268,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/layout_block_inbound"
+        android:id="@+id/layout_block_ionetound"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -291,11 +291,11 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/advanced_block_inbound"
-                android:textColor="@color/nb_txt_light" />
+                android:text="@string/advanced_block_ionetound"
+                android:textColor="@color/onet_txt_light" />
 
             <com.google.android.material.switchmaterial.SwitchMaterial
-                android:id="@+id/switch_block_inbound"
+                android:id="@+id/switch_block_ionetound"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:focusable="false"
@@ -306,8 +306,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/advanced_block_inbound_desc"
-            android:textColor="@color/nb_txt_light"
+            android:text="@string/advanced_block_ionetound_desc"
+            android:textColor="@color/onet_txt_light"
             android:textSize="12sp"
             android:layout_marginTop="2dp"
             android:layout_marginStart="0dp"
@@ -326,7 +326,7 @@
         android:focusableInTouchMode="false"
         android:clickable="true"
         android:background="@drawable/focus_highlight"
-        app:layout_constraintTop_toBottomOf="@id/layout_block_inbound"
+        app:layout_constraintTop_toBottomOf="@id/layout_block_ionetound"
         app:layout_constraintEnd_toEndOf="parent">
 
         <LinearLayout
@@ -340,7 +340,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/advanced_disable_client_routes"
-                android:textColor="@color/nb_txt_light" />
+                android:textColor="@color/onet_txt_light" />
 
             <com.google.android.material.switchmaterial.SwitchMaterial
                 android:id="@+id/switch_disable_client_routes"
@@ -355,7 +355,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/advanced_disable_client_routes_desc"
-            android:textColor="@color/nb_txt_light"
+            android:textColor="@color/onet_txt_light"
             android:textSize="12sp"
             android:layout_marginTop="2dp"
             android:layout_marginStart="0dp"
@@ -388,7 +388,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/advanced_disable_server_routes"
-                android:textColor="@color/nb_txt_light" />
+                android:textColor="@color/onet_txt_light" />
 
             <com.google.android.material.switchmaterial.SwitchMaterial
                 android:id="@+id/switch_disable_server_routes"
@@ -403,7 +403,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/advanced_disable_server_routes_desc"
-            android:textColor="@color/nb_txt_light"
+            android:textColor="@color/onet_txt_light"
             android:textSize="12sp"
             android:layout_marginTop="2dp"
             android:layout_marginStart="0dp"
@@ -436,7 +436,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/advanced_disable_dns"
-                android:textColor="@color/nb_txt_light" />
+                android:textColor="@color/onet_txt_light" />
 
             <com.google.android.material.switchmaterial.SwitchMaterial
                 android:id="@+id/switch_disable_dns"
@@ -451,7 +451,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/advanced_disable_dns_desc"
-            android:textColor="@color/nb_txt_light"
+            android:textColor="@color/onet_txt_light"
             android:textSize="12sp"
             android:layout_marginTop="2dp"
             android:layout_marginStart="0dp"
@@ -484,7 +484,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/advanced_disable_firewall"
-                android:textColor="@color/nb_txt_light" />
+                android:textColor="@color/onet_txt_light" />
 
             <com.google.android.material.switchmaterial.SwitchMaterial
                 android:id="@+id/switch_disable_firewall"
@@ -499,7 +499,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/advanced_disable_firewall_desc"
-            android:textColor="@color/nb_txt_light"
+            android:textColor="@color/onet_txt_light"
             android:textSize="12sp"
             android:layout_marginTop="2dp"
             android:layout_marginStart="0dp"
@@ -532,7 +532,7 @@
             android:text="@string/advanced_theme_title"
             android:textStyle="bold"
             android:textSize="20sp"
-            android:textColor="@color/nb_txt"
+            android:textColor="@color/onet_txt"
             android:layout_marginTop="16dp" />
 
         <TextView
@@ -540,7 +540,7 @@
             android:layout_height="wrap_content"
             android:text="@string/advanced_theme_desc"
             android:textSize="14sp"
-            android:textColor="@color/nb_txt_light"
+            android:textColor="@color/onet_txt_light"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp" />
 
@@ -556,7 +556,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/advanced_theme_system"
-                android:textColor="@color/nb_txt_light"
+                android:textColor="@color/onet_txt_light"
                 android:padding="12dp"
                 android:focusable="true"
                 android:focusableInTouchMode="false"
@@ -568,7 +568,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/advanced_theme_light"
                 android:layout_marginStart="16dp"
-                android:textColor="@color/nb_txt_light"
+                android:textColor="@color/onet_txt_light"
                 android:padding="12dp"
                 android:focusable="true"
                 android:focusableInTouchMode="false"
@@ -580,7 +580,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/advanced_theme_dark"
                 android:layout_marginStart="16dp"
-                android:textColor="@color/nb_txt_light"
+                android:textColor="@color/onet_txt_light"
                 android:padding="12dp"
                 android:focusable="true"
                 android:focusableInTouchMode="false"

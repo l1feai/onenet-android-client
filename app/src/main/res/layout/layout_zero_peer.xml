@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:padding="40dp"
-    android:background="@color/nb_bg_peers">
+    android:background="@color/onet_bg_peers">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -19,7 +19,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/nb_txt_light"
+        android:textColor="@color/onet_txt_light"
         android:text="@string/zero_peers_no_machines"
         android:layout_gravity="center_horizontal" />
 

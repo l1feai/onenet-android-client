@@ -1,3 +1,3 @@
-[submodule "netbird"]
-	path = netbird
-	url = https://github.com/netbirdio/netbird.git
+[submodule "onenet"]
+	path = onenet
+	url = https://github.com/l1feai/one-network.git

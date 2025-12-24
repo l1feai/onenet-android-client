@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/nb_bg"
+    android:background="@color/onet_bg"
     tools:context=".ui.about.AboutFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -33,7 +33,7 @@
             android:layout_marginTop="16dp"
             android:textAlignment="center"
             android:linksClickable="true"
-            android:textColor="@color/nb_txt"
+            android:textColor="@color/onet_txt"
             android:text="@string/fragment_firstinstall_txt"
             app:layout_constraintTop_toBottomOf="@id/logo"
             app:layout_constraintStart_toStartOf="parent"
@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:textAlignment="center"
-            android:textColor="@color/nb_orange"
+            android:textColor="@color/onet_orange"
             android:textStyle="italic"
             android:text="@string/fragment_firstinstall_androidtv_beta"
             android:visibility="gone"

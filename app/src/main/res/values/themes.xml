@@ -1,8 +1,8 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="Theme.NetBird" parent="Theme.MaterialComponents.Light.DarkActionBar">
+    <style name="Theme.OneNet" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/nb_orange</item>
+        <item name="colorPrimary">@color/onet_orange</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
@@ -11,34 +11,34 @@
         <item name="colorOnSecondary">@color/black</item>
 
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">@color/nb_gray_dark</item>
+        <item name="android:statusBarColor">@color/onet_gray_dark</item>
 
         <!-- Default background color -->
-        <item name="android:windowBackground">@color/nb_bg</item>
+        <item name="android:windowBackground">@color/onet_bg</item>
 
-        <item name="android:textColor">@color/nb_txt</item>
+        <item name="android:textColor">@color/onet_txt</item>
 
 
         <!-- Peer and Network bottom Button background -->
         <item name="colorSurface">@color/white</item>
-        <item name="nbTabBackground">@color/nb_gray_bg</item>
+        <item name="onetTabBackground">@color/onet_gray_bg</item>
     </style>
 
-    <style name="Theme.NetBird.NoActionBar">
+    <style name="Theme.OneNet.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.NetBird.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+    <style name="Theme.OneNet.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
         <item name="colorPrimary">@color/white</item>
-        <item name="android:textColorPrimary">@color/nb_txt</item>
+        <item name="android:textColorPrimary">@color/onet_txt</item>
     </style>
 
-    <style name="Theme.NetBird.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.OneNet.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
     <!-- for peers fragment -->
     <style name="BottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
-        <item name="colorPrimary">@color/nb_orange</item>
+        <item name="colorPrimary">@color/onet_orange</item>
         <item name="android:windowBackground">@android:color/transparent</item>
     </style>
 
@@ -56,7 +56,7 @@
         <item name="thumbTint">@color/switch_thumb_color</item>
         <item name="trackTint">@color/switch_track_color</item>
     </style>
-    <attr name="nbTabBackground" format="color|reference" />
+    <attr name="onetTabBackground" format="color|reference" />
 
     <style name="AlertDialogTheme" parent="Theme.AppCompat.Dialog.Alert">
         <item name="android:windowBackground">@android:color/transparent</item>

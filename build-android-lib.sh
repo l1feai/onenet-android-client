@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script to build NetBird mobile bindings using gomobile
+# Script to build OneNet mobile bindings using gomobile
 # Usage: ./script.sh [version]
 # - If a version is provided, it will be used (with leading 'v' stripped if present).
 # - If no version is provided:
@@ -51,7 +51,7 @@ get_version() {
   echo "$new_version"
 }
 
-cd netbird
+cd onenet
 
 # Get version using the function
 version=$(get_version "${1:-}")
@@ -60,9 +60,9 @@ echo "Using version: $version"
 gomobile init
 
 CGO_ENABLED=0 gomobile bind \
-  -o "$app_path/gomobile/netbird.aar" \
-  -javapkg=io.netbird.gomobile \
-  -ldflags="-linkmode=external -extldflags=-Wl,-z,max-page-size=16384 -checklinkname=0 -X golang.zx2c4.com/wireguard/ipc.socketDirectory=/data/data/io.netbird.client/cache/wireguard -X github.com/netbirdio/netbird/version.version=$version" \
+  -o "$app_path/gomobile/onenet.aar" \
+  -javapkg=io.onenet.gomobile \
+  -ldflags="-linkmode=external -extldflags=-Wl,-z,max-page-size=16384 -checklinkname=0 -X golang.zx2c4.com/wireguard/ipc.socketDirectory=/data/data/io.onenet.client/cache/wireguard -X github.com/l1feai/one-network/version.version=$version" \
   "$(pwd)/client/android"
 
 cd - > /dev/null

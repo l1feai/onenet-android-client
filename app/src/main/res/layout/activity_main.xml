@@ -20,7 +20,7 @@
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         android:orientation="vertical"
-        android:background="@color/nb_bg">
+        android:background="@color/onet_bg">
 
         <com.google.android.material.navigation.NavigationView
             android:id="@+id/nav_view"

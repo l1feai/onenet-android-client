@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             tools:text="Switch Title"
-            android:textColor="@color/nb_txt_light" />
+            android:textColor="@color/onet_txt_light" />
 
         <com.google.android.material.switchmaterial.SwitchMaterial
             android:id="@+id/switch_control"
@@ -37,7 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:text="Switch Description"
-        android:textColor="@color/nb_txt_light"
+        android:textColor="@color/onet_txt_light"
         android:textSize="12sp"
         android:layout_marginTop="2dp"
         android:layout_marginStart="0dp"

@@ -64,7 +64,7 @@
         android:layout_height="wrap_content"
         android:text="@string/change_server_alert_cancel"
         android:textAllCaps="false"
-        android:textColor="@color/nb_orange"
+        android:textColor="@color/onet_orange"
         android:background="@drawable/btn_bg_transparent"
         app:layout_constraintTop_toBottomOf="@id/btn_yes"
         app:layout_constraintStart_toStartOf="parent"

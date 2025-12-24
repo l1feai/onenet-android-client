@@ -19,7 +19,7 @@
             android:foregroundServiceType="systemExempted">
             <intent-filter>
                 <action android:name="android.net.VpnService"/>
-                <action android:name="io.netbird.client.intent.action.START_SERVICE" />
+                <action android:name="io.onenet.client.intent.action.START_SERVICE" />
             </intent-filter>
             <meta-data android:name="android.net.VpnService.SUPPORTS_ALWAYS_ON"
                 android:value="true"/>
